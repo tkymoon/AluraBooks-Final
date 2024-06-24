@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">MEU PERFIL</li>
+        <li class="lista-menu__item"></li>
+        <a href="#" class="lista-menu__link">Categorias</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Eventos</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Ingressos</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Favoritos</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Minhas Compras</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Sobre Nós</s></a>
+      </li>
+      </ul>
+      <img src="theater.png" width="50" height="45" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="loupe.png" width="45" height="40" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="heart.png" width="45" height="40" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="bag.png" width="45" height="40" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="user.png" width="45" height="40" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe qual artista você quer ver?</h2>
+    <p class="banner__texto">Compre aqui os ingressos para eventos confirmados!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual o show dos seus sonhos?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide"><img src="billie.png" >
+          alt="Livro sobre apache kafka e spring boot da alura books"></div>
+      <div class="swiper-slide"><img src="gaga.jpeg" >
+          alt="Livro sobre liderança em design design da alura books"></div>
+      <div class="swiper-slide"><img src="dragons.jpeg" alt="Livro sobre javascript assertivo da alura books">
+      </div>
+      <div class="swiper-slide">
+        <img src="ariana.jpeg" alt="Livro Guia front end">
+      </div>
+      <div class="swiper-slide">
+        <img src="labrinth.jpeg" alt="Livro sobre portugol" />
+      </div>
+      <div class="swiper-slide">
+        <img src="cold.jpeg" alt="Livro sobre acessibilidade" />
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+
+
+          </style>
+        </div>
+
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+ 
+        <div class="swiper-slide"><img src="taylor.jpeg"
+            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="post.jpg" alt="Livro sobre liderança em design da alura books">
+        </div>
+        <div class="swiper-slide"><img src="travis.jpeg" alt="Livro sobre javascript assertivo da alurabooks">
+        </div>
+        <div class="swiper-slide"><img src="justin.jpeg" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="riha.jpg" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="drake.webp" alt="livro sobre acessibilidade"></div>
+      </div>
+
+     
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+
+      <div class="card__descrição">
+
+        <div class="descrição">
+          <h3 class="descrição__titulo">SOBRE NÓS</h3>
+          <h2 class="descrição__titulo-livro">MUSIC STAGE</h2>
+          <p class="descrição__texto">Vendas de ingressos para todos os eventos!
+          </p>
+        </div>
+
+
+      <div class="card__botões">
+       
+        <ul class="botões">
+      
+  
+        </ul>
+
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Música</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Categorias</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Eventos</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Locais</a>
+      </li>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
